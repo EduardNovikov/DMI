@@ -1,14 +1,26 @@
 #!/bin/bash
 
+#7. piemers
+#skaitliska veertiba='expr 2 + 2'
+#echo "summas vertiba: "$skaitliska_veertiiba
+#echo "summas vertiba: "$skaitliska_vertiiba"
+skaitliska_vertiba=`expr 2 + 2'
+echo "summas vertiba: "$skaitliska_veertiba
+echo "summas vertiba: "skaitliska_vertiba
+#skaitliska_veertiba=expr 2 + 2
+#echo "summas vertiba: "$skaitliska_vertiba
+#echo "summas vertiba: $skaitliska_vertiba"
+
+
 #6. piemers
-echo $*
-echo "----------"
-kaartas_numurs=1
-for arguments in $*
-do
-    echo $kaartas_numurs". arguments - " $arguments
-    kaartas_numurs=$kaartas_numurs+1
-done
+#echo $*
+#echo "----------"
+#kaartas_numurs=1
+#for arguments in $*
+#do
+#    echo $kaartas_numurs". arguments - " $arguments
+#    kaartas_numurs=$kaartas_numurs+1
+#done
 
 
 #5. piemers
