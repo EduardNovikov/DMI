@@ -1,10 +1,39 @@
 #!/bin/bash
 
+#6. piemers
+echo $*
+echo "----------"
+kaartas_numurs=1
+for arguments in $*
+do
+    echo $kaartas_numurs". arguments - " $arguments
+    kaartas_numurs=$kaartas_numurs+1
+done
+
+
+#5. piemers
+#echo "skriptam nodoto argumentu skaits: "$#
+#echo "argumentu saraksts (attelosana/grupeshanas veids 1): "$*
+#echo "argumentu saraksts (attelosana/grupesanas veids 2): "$@
+#echo "pirma argumenta vertiba: "$1
+#echo "otra argumenta vertiba: "$2
+#echo $1$2
+
+#4. piemers
+#echo "izpildama skripta faila nosaukums: "$0
+#echo $n
+#echo "skriptam nodoto argumentu skaits: "$#
+#echo "argumentu saraksts (attelosana/grupesana veids 1): "$*
+#ech "argumentu sarakts (attelosana/grupeshanas veids 2): "$@
+#echo "ieprieksejas komandas izpildes rezultats: " $?
+#echo "skripta izpildei pieskirtais procesa numurs: "$$
+#echo $!
+
 #3. piemers
-NAME="Vards Uzvards"
-echo #NAME
-unset NAME
-echo $NAME
+#NAME="Vards Uzvards"
+#echo $NAME
+#unset NAME
+#echo $NAME
 
 
 
