@@ -1,0 +1,15 @@
+cd /home - pariet uz direktoriju /home
+cd .. - pariet uz direktoriju uz limeni augstak
+cd ../.. - pariet uz direktoriju 2x limeni augstak
+cd - pariet uz majas direktoriju
+pwd - paradit tekoshu direktoriju
+ls - attelot saturu tekoshaja direktorija
+ls -F - attelot tekoso saturu direktoriju ar pielikumu vardu-simboliem
+ls -l - paradit detalizeto failu un direktoriju tekojosa direktorija
+ls -a - paradit sleptus failus  un direktorijas tekosaja direktorija
+mkdir dir1 - izveidot direktoriju ar nosaukumu 'dir1'
+mkdir dir1 dir2 - izveidot divas direktorijas vienlaicigi
+rm -f file1 - dzest failu ar nosaukumu 'file1'
+rmdir dir1 - dzest direktoriju ar nosaukumu 'dir1'
+mv dir1 new_dir - pardevet vai parvietot failu vai direktoriju
+cp file1 file2 - kopet failu 'file1' uz failu 'file2'
